@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this,"Data Updated",Toast.LENGTH_SHORT).show();
 
                 }else{
-                    Toast.makeText(MainActivity.this,"Can't Update Data",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"Cannot Update Data",Toast.LENGTH_SHORT).show();
 
                 }
             }
