@@ -44,7 +44,7 @@ public class DBHelper extends SQLiteOpenHelper {
         SQLiteDatabase DB= this.getReadableDatabase();
         ContentValues values=new ContentValues();
         values.put("name",name);
-       // values.put("roll",roll);
+
         values.put("sabaq",sabaq);
         values.put("sabaqi",sabaqi);
         values.put("manzil",manzil);
