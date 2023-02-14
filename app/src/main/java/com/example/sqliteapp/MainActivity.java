@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText name,roll,sabaq,sabaqi,manzil,date;
+    EditText name,roll,sabaq,sabaqi,manzil;
     Button add,update,delete,show,repo;
     DBHelper DB;
 
