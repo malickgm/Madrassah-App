@@ -80,7 +80,7 @@ public class DBHelper extends SQLiteOpenHelper {
             return false;
         }
     }
-
+    //Records of Datag
     public Cursor showUserData(){
         SQLiteDatabase DB= this.getReadableDatabase();
         Cursor cursor= DB.rawQuery("Select * from Students",null );
